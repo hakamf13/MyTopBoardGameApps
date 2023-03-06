@@ -29,13 +29,24 @@ class DetailActivity : AppCompatActivity() {
                 .into(ivDetailGameCover)
             tvDetailGameName.text = detailGameContent.gameName
             tvDetailGameDescription.text = detailGameContent.gameDescription
+            tvDetailGamePublisher.text = detailGameContent.gamePublisher
+            tvDetailGameReleased.text = detailGameContent.gameReleased
+            tvDetailGameComplexity.text = detailGameContent.gameComplexity
         }
 
-        val frontText = "The game name is "
-        val separator = ". "
+        val gameName = "The game name is "
+        val dot = ". "
+        val gamePublisher = "Published by "
+        val gameReleased = "Released at "
+        val gameComplexity = "This game has complexity rating at "
         val sendIntent: Intent = Intent().apply {
             action = Intent.ACTION_SEND
-            putExtra(Intent.EXTRA_TEXT, "$frontText${detailGameContent.gameName}$separator${detailGameContent.gameDescription}")
+            putExtra(Intent.EXTRA_TEXT,
+                "$gameName${detailGameContent.gameName}$dot" +
+                        "$gamePublisher${detailGameContent.gamePublisher} and " +
+                        "$gameReleased${detailGameContent.gameReleased}$dot" +
+                        detailGameContent.gameDescription +
+                        "$dot$gameComplexity${detailGameContent.gameComplexity}")
             type = "text/plain"
         }
 

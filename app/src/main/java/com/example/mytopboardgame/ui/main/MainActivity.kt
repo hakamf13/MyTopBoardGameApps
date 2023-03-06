@@ -39,9 +39,12 @@ class MainActivity : AppCompatActivity() {
             val dataGameName = resources.getStringArray(R.array.game_name)
             val dataGameDescription = resources.getStringArray(R.array.game_description)
             val dataGameCover = resources.obtainTypedArray(R.array.game_cover)
+            val dataGamePublisher = resources.getStringArray(R.array.game_publisher)
+            val dataGameReleased = resources.getStringArray(R.array.game_released)
+            val dataGameComplexity = resources.getStringArray(R.array.game_complexity)
             val getListGame = ArrayList<Game>()
             for (i in dataGameName.indices) {
-                val gameData = Game(dataGameName[i], dataGameDescription[i], dataGameCover.getResourceId(i, -1))
+                val gameData = Game(dataGameName[i], dataGameDescription[i], dataGameCover.getResourceId(i, -1), dataGamePublisher[i], dataGameReleased[i], dataGameComplexity[i])
                 getListGame.add(gameData)
             }
             dataGameCover.recycle()
@@ -78,7 +81,7 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
 
-            R.id.action_about -> {
+            R.id.about_page -> {
                 val aboutIntent = Intent(
                     this@MainActivity,
                     AboutActivity::class.java

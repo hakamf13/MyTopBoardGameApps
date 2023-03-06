@@ -8,4 +8,7 @@ data class Game(
     val gameName: String,
     val gameDescription: String,
     val gameCover: Int,
+    val gamePublisher: String,
+    val gameReleased: String,
+    val gameComplexity: String
 ) : Parcelable

@@ -39,19 +39,107 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:text="@string/dummy_game_title"
-                android:textSize="25sp"
+                android:textSize="30sp"
                 android:textStyle="bold"
-                android:textColor="@color/white_90"
+                android:textColor="@color/white"
                 android:gravity="center"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/iv_detail_game_cover" />
 
             <TextView
+                android:id="@+id/tv_title_detail_game_publisher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/title_game_publisher"
+                android:textColor="@color/white_90"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="@id/tv_detail_game_name"
+                app:layout_constraintEnd_toStartOf="@+id/tv_title_detail_game_released"
+                app:layout_constraintTop_toBottomOf="@+id/tv_detail_game_name"
+                app:layout_constraintBottom_toTopOf="@+id/tv_detail_game_description"/>
+
+            <TextView
+                android:id="@+id/tv_detail_game_publisher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/dummy_game_publisher"
+                android:textColor="@color/white_90"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="@id/tv_title_detail_game_publisher"
+                app:layout_constraintEnd_toEndOf="@id/tv_title_detail_game_publisher"
+                app:layout_constraintTop_toBottomOf="@+id/tv_title_detail_game_publisher"
+                app:layout_constraintBottom_toTopOf="@+id/tv_detail_game_description"/>
+
+            <TextView
+                android:id="@+id/tv_title_detail_game_released"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/title_game_released"
+                android:textColor="@color/white_90"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                app:layout_constraintStart_toEndOf="@id/tv_title_detail_game_publisher"
+                app:layout_constraintTop_toTopOf="@+id/tv_title_detail_game_publisher"
+                app:layout_constraintEnd_toStartOf="@+id/tv_title_detail_game_complexity"/>
+
+            <TextView
+                android:id="@+id/tv_detail_game_released"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/dummy_game_released"
+                android:textColor="@color/white_90"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="@id/tv_title_detail_game_released"
+                app:layout_constraintEnd_toEndOf="@id/tv_title_detail_game_released"
+                app:layout_constraintTop_toTopOf="@+id/tv_detail_game_publisher"/>
+
+            <TextView
+                android:id="@+id/tv_title_detail_game_complexity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/title_game_complexity"
+                android:textColor="@color/white_90"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                app:layout_constraintStart_toEndOf="@id/tv_title_detail_game_released"
+                app:layout_constraintTop_toTopOf="@+id/tv_title_detail_game_publisher"
+                app:layout_constraintEnd_toEndOf="@id/tv_detail_game_name"/>
+
+            <TextView
+                android:id="@+id/tv_detail_game_complexity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/dummy_game_complexity"
+                android:textColor="@color/white_90"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="@id/tv_title_detail_game_complexity"
+                app:layout_constraintEnd_toEndOf="@id/tv_title_detail_game_complexity"
+            app:layout_constraintTop_toTopOf="@+id/tv_detail_game_publisher"/>
+
+            <TextView
                 android:id="@+id/tv_detail_game_description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:justificationMode="inter_word"
@@ -59,7 +147,7 @@
                 android:textColor="@color/white_90"
                 app:layout_constraintStart_toStartOf="@id/tv_detail_game_name"
                 app:layout_constraintEnd_toEndOf="@id/tv_detail_game_name"
-                app:layout_constraintTop_toBottomOf="@id/tv_detail_game_name"/>
+                app:layout_constraintTop_toBottomOf="@id/tv_title_detail_game_publisher"/>
 
             <Button
                 android:id="@+id/action_share"

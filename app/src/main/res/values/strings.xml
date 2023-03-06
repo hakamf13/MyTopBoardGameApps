@@ -12,6 +12,12 @@
     <string name="talkback_apps_logo">Apps logo</string>
 
     <string name="button_share">Share</string>
+    <string name="title_game_publisher">Publisher</string>
+    <string name="dummy_game_publisher">Publisher</string>
+    <string name="title_game_released">Released</string>
+    <string name="dummy_game_released">Released</string>
+    <string name="title_game_complexity">Complexity</string>
+    <string name="dummy_game_complexity">Complexity</string>
 
     <string-array name="game_name">
         <item>Wingspan</item>
@@ -24,6 +30,45 @@
         <item>Blood Rage</item>
         <item>Terraforming Mars</item>
         <item>Brass Birmingham</item>
+    </string-array>
+    
+    <string-array name="game_publisher">
+        <item>Stonemaier Games</item>
+        <item>Repos Production</item>
+        <item>Lookout Games</item>
+        <item>Delicious Games</item>
+        <item>Greater Than Games</item>
+        <item>Dire Wolf</item>
+        <item>Leder Games</item>
+        <item>Cool Mini Or Not</item>
+        <item>FryxGames</item>
+        <item>Roxley</item>
+    </string-array>
+
+    <string-array name="game_released">
+        <item>2019</item>
+        <item>2010</item>
+        <item>2007</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2020</item>
+        <item>2018</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2018</item>
+    </string-array>
+
+    <string-array name="game_complexity">
+        <item>2.45 / 5</item>
+        <item>2.32 / 5</item>
+        <item>3.64 / 5</item>
+        <item>3.61 / 5</item>
+        <item>4.06 / 5</item>
+        <item>3.01 / 5</item>
+        <item>3.77 / 5</item>
+        <item>2.88 / 5</item>
+        <item>3.26 / 5</item>
+        <item>3.90 / 5</item>
     </string-array>
 
     <string-array name="game_description">
