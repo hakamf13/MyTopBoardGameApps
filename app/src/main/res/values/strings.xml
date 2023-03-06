@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">My Top Board Game</string>
+
+    <string name="about_name">Muhammad Hakam Fardana</string>
+    <string name="about_email">mhakamf13@gmail.com</string>
+    <string name="about_title">About</string>
+
+    <string name="dummy_game_title">Wingspan</string>
+    <string name="dummy_game_description">Wingspan is a competitive, medium-weight, card-driven, engine-building board game from Stonemaier Games. It\'s designed by Elizabeth Hargrave and features over 170 birds illustrated by Beth Sobel, Natalia Rojas, and Ana Maria Martinez. You are bird enthusiasts—researchers, bird watchers, ornithologists, and collectors—seeking to discover and attract the best birds to your network of wildlife preserves. Each bird extends a chain of powerful combinations in one of your habitats (actions).</string>
+
+    <string name="talkback_game_cover">The cover of the game</string>
+    <string name="talkback_apps_logo">Apps logo</string>
+
+    <string name="button_share">Share</string>
+
+    <string-array name="game_name">
+        <item>Wingspan</item>
+        <item>7 Wonders</item>
+        <item>Agricola</item>
+        <item>Underwater Cities</item>
+        <item>Spirit Island</item>
+        <item>Dune Imperium</item>
+        <item>Root</item>
+        <item>Blood Rage</item>
+        <item>Terraforming Mars</item>
+        <item>Brass Birmingham</item>
+    </string-array>
+
+    <string-array name="game_description">
+        <item>Wingspan is a competitive, medium-weight, card-driven, engine-building board game from Stonemaier Games. It\'s designed by Elizabeth Hargrave and features over 170 birds illustrated by Beth Sobel, Natalia Rojas, and Ana Maria Martinez. You are bird enthusiasts—researchers, bird watchers, ornithologists, and collectors—seeking to discover and attract the best birds to your network of wildlife preserves. Each bird extends a chain of powerful combinations in one of your habitats (actions).</item>
+        <item>You are the leader of one of the 7 great cities of the Ancient World. Gather resources, develop commercial routes, and affirm your military supremacy. Build your city and erect an architectural wonder which will transcend future times.</item>
+        <item>In Agricola, you\'re a farmer in a wooden shack with your spouse and little else. On a turn, you get to take only two actions, one for you and one for the spouse, from all the possibilities you will find on a farm: collecting clay, wood, or stone; building fences; and so on. You might think about having kids in order to get more work accomplished, but first you need to expand your house. And what are you going to feed all the little rugrats?</item>
+        <item>In Underwater Cities, which takes about 30–45 minutes per player, players represent the most powerful brains in the world, brains nominated due to the overpopulation of Earth to establish the best and most livable underwater areas possible.</item>
+        <item>Spirit Island is a complex and thematic cooperative game about defending your island home from colonizing Invaders. Players are different spirits of the land, each with its own unique elemental powers. Every turn, players simultaneously choose which of their power cards to play, paying energy to do so. Using combinations of power cards that match a spirit\'s elemental affinities can grant free bonus effects. Faster powers take effect immediately, before the Invaders spread and ravage, but other magics are slower, requiring forethought and planning to use effectively. In the Spirit phase, spirits gain energy, and choose how / whether to Grow: to reclaim used power cards, to seek for new power, or to spread presence into new areas of the island.</item>
+        <item>Dune: Imperium is a game that finds inspiration in elements and characters from the Dune legacy, both the new film from Legendary Pictures and the seminal literary series from Frank Herbert, Brian Herbert, and Kevin J. Anderson. As a leader of one of the Great Houses of the Landsraad, raise your banner and marshal your forces and spies. War is coming, and at the center of the conflict is Arrakis – Dune, the desert planet.</item>
+        <item>Root is a game of adventure and war in which 2 to 4 (1 to 6 with the Riverfolk expansion) players battle for control of a vast wilderness. The nefarious Marquise de Cat has seized the great woodland, intent on harvesting its riches. Under her rule, the many creatures of the forest have banded together. This Alliance will seek to strengthen its resources and subvert the rule of Cats. In this effort, the Alliance may enlist the help of the wandering Vagabonds who are able to move through the more dangerous woodland paths. Though some may sympathize with the Alliance’s hopes and dreams, these wanderers are old enough to remember the great birds of prey who once controlled the woods.</item>
+        <item>In Blood Rage, each player controls their own Viking clan’s warriors, leader, and ship. Ragnarök has come, and it’s the end of the world! It’s the Vikings’ last chance to go down in a blaze of glory and secure their place in Valhalla at Odin’s side! For a Viking there are many pathways to glory. You can invade and pillage the land for its rewards, crush your opponents in epic battles, fulfill quests, increase your clan\'s stats, or even die gloriously either in battle or from Ragnarök, the ultimate inescapable doom.</item>
+        <item>In the 2400s, mankind begins to terraform the planet Mars. Giant corporations, sponsored by the World Government on Earth, initiate huge projects to raise the temperature, the oxygen level, and the ocean coverage until the environment is habitable. In Terraforming Mars, you play one of those corporations and work together in the terraforming process, but compete for getting victory points that are awarded not only for your contribution to the terraforming, but also for advancing human infrastructure throughout the solar system, and doing other commendable things.</item>
+        <item>Brass: Birmingham is an economic strategy game sequel to Martin Wallace\' 2007 masterpiece, Brass. Brass: Birmingham tells the story of competing entrepreneurs in Birmingham during the industrial revolution, between the years of 1770–1870. As in its predecessor, you must develop, build, and establish your industries and network, in an effort to exploit low or high market demands.</item>
+    </string-array>
+
+    <integer-array name="game_cover">
+        <item>@drawable/game1</item>
+        <item>@drawable/game2</item>
+        <item>@drawable/game3</item>
+        <item>@drawable/game4</item>
+        <item>@drawable/game5</item>
+        <item>@drawable/game6</item>
+        <item>@drawable/game7</item>
+        <item>@drawable/game8</item>
+        <item>@drawable/game9</item>
+        <item>@drawable/game10</item>
+        <item>@drawable/logo_game</item>
+    </integer-array>
+</resources>
